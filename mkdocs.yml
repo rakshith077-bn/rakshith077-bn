@@ -1,0 +1,68 @@
+site_name: Rakshith Bangalore Nagaraju
+site_url: http://localhost:8000/
+repo_url: https://github.com/rakshith077-bn
+
+# Navigation
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: 
+    - Peft-Kit: projects/peftkit.md
+    - Spectrometry: projects/spectrometry.md
+    - Parasitic Egg: projects/parasiticegg.md
+    - Medical QA: projects/medicalqa.md
+    - Elevators: projects/elevator.md
+    - Perception: projects/perception.md
+    - Zombie: projects/zombie.md
+    - Document QA: projects/documentqa.md
+  - Blog: 
+    - PEFT: blog/peft.md
+    - Google Cloud: blog/googlecloud.md 
+    - Software Verification: blog/softwareverification.md
+    - Cryptography: blog/cryptography.md
+    - xAI: blog/xai.md
+    - Life at X: blog/lifeatx.md
+    - Housing Situation: blog/housing.md
+
+# Manage Plugins
+plugins:
+  - termynal:
+      prompt_literal_start:
+        - "$"
+        - ">"
+
+# Theme Settings
+theme:
+  name: shadcn
+  show_title: true # show the title in the top bar
+  palette:
+    scheme: slate
+    primary: green
+  features: 
+    - navigation.footer # Footer
+  # custom_dir: overrides # Used for Footer
+
+# Footer
+copyright: Copyright &copy; 2024 James Willett
+
+# MD Extensions
+markdown_extensions: 
+  - codehilite # For Code Blocks. Refer the peft-kit page for the syntax
+
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  - admonition # For warnings block, info block. Refer peft-kit first banner for syntax
+  - shadcn.extensions.codexec # For Code Blocks. Refer the peft-kit page for the syntax
+  - pymdownx.arithmatex: # For math formulas written in latex
+      generic: true 
+  - pymdownx.blocks.caption # For enabling captions for tables. Refer - https://asiffer.github.io/mkdocs-shadcn/extensions/pymdownx_blocks_caption/
+  - pymdownx.blocks.details # For enabling drop-down style Q/A sheets. Refer - https://asiffer.github.io/mkdocs-shadcn/extensions/pymdownx_blocks_details/
+  - pymdownx.blocks.tab # Refer - https://asiffer.github.io/mkdocs-shadcn/extensions/pymdownx_blocks_tab/
+
+# Extras
+extra_css:
+  - stylesheets/extra.css

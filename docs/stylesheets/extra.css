@@ -1,0 +1,4 @@
+/* This targets the small text at the very bottom of the shadcn theme */
+footer .text-muted-foreground {
+    display: none !important;
+}
