@@ -13,3 +13,6 @@ $ python
 
 
 Rakshith is a passionate individual with his work, academics and experience revolving around AI, ML, Data Analytics, Data Engineering, Cloud Engineering, Business Intelligence, and Automation. Currently based in Nova Scotia, Canada, he recently graduated with a Master's Degree in Applied Computer Science from St. Francis Xavier university. Transitioning out of academia, he's currently focused towards pursuing a career in related field. Apart from being geek, Rakshith was a Google Developer Group Lead, a soccer coach and is extremly passionate about anything that involves hiking. 
+
+!!! danger "Note:"
+    Some aspects of the site are still `under development`. 
