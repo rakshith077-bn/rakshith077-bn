@@ -1,5 +1,5 @@
 site_name: Rakshith Bangalore Nagaraju
-site_url: http://localhost:8000/
+site_url: ""
 repo_url: https://github.com/rakshith077-bn
 
 # Navigation
@@ -43,7 +43,7 @@ theme:
   # custom_dir: overrides # Used for Footer
 
 # Footer
-copyright: Copyright &copy; 2024 James Willett
+copyright: Copyright &copy; 2026 Rakshith Bangalore Nagaraju
 
 # MD Extensions
 markdown_extensions: 
