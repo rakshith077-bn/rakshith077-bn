@@ -2,7 +2,9 @@ title: Rakshith Bangalore Nagaraju
 
 This portfolio is aimed towards providing the viewers an objective overview of Rakshith's experience, projects, community involvement and blogs. All the content provided is subjected to his knowledge but not limited to only the listed aspects.
 
-<img src="rakshith.png" width="50%", height="50%">
+<p align="center">
+  <img src="rakshith.png" width="40%" height="40%" alt="A Picture of Rakshith">
+</p>
 
 <!-- termynal -->
 
